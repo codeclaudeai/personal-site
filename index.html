@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta name="description" content="Личный сайт — мысли, ссылки и немного жизни.">
+  <title>личное .</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top">личное <span>.</span></a>
+    <nav aria-label="Основная навигация">
+      <a href="#about">Обо мне</a>
+      <a href="#links">Ссылки</a>
+      <a href="#blog">Блог</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="eyebrow">ЛИЧНЫЙ САЙТ / БЛОГ</div>
+      <h1 id="hero-title">МЫСЛИ, ССЫЛКИ,<br>НЕМНОГО ЖИЗНИ</h1>
+      <div class="hero-copy">
+        <p class="intro">Привет, это я.</p>
+        <p>Здесь собираю мысли, делюсь находками и оставляю ссылки на то, что мне близко.</p>
+      </div>
+      <a class="arrow-link" href="#blog">К записям <span aria-hidden="true">↘</span></a>
+    </section>
+
+    <section class="section split" id="about">
+      <div class="section-number">01</div>
+      <div>
+        <p class="eyebrow">ОБО МНЕ</p>
+        <h2>РАД, ЧТО ВЫ ЗДЕСЬ</h2>
+        <p class="muted">Это личное пространство без лишнего шума: заметки, интересные штуки, проекты и то, чем хочется поделиться.</p>
+      </div>
+    </section>
+
+    <section class="section split" id="links">
+      <div class="section-number">02</div>
+      <div>
+        <p class="eyebrow">НА СВЯЗИ</p>
+        <h2>ССЫЛКИ</h2>
+        <div class="social-grid">
+          <a class="social-card placeholder" href="#" aria-disabled="true" onclick="return false"><span>Telegram</span><small>добавить ссылку</small></a>
+          <a class="social-card placeholder" href="#" aria-disabled="true" onclick="return false"><span>TikTok</span><small>добавить ссылку</small></a>
+          <a class="social-card" href="https://github.com/codeclaudeai" target="_blank" rel="noreferrer"><span>GitHub</span><small>@codeclaudeai ↗</small></a>
+          <a class="social-card placeholder" href="#" aria-disabled="true" onclick="return false"><span>Ещё</span><small>добавить ссылку</small></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split" id="blog">
+      <div class="section-number">03</div>
+      <div>
+        <p class="eyebrow">БЛОГ</p>
+        <h2>МЫСЛИ ВСЛУХ</h2>
+        <div class="posts">
+          <article class="post empty-post">
+            <div class="post-meta">00 / ЗАПИСИ</div>
+            <h3>Первая запись ещё впереди.</h3>
+            <p>Загляните чуть позже — здесь появятся новые мысли и истории.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand" href="#top">личное <span>.</span></a>
+    <span>© <span id="year">2026</span></span>
+    <a href="#top">Наверх ↑</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
